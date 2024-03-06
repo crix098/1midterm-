@@ -1,0 +1,35 @@
+body {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+    color: #0000FF; /* Blue font color */
+    background-color: #FFC0CB; /* Pink background */
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    color: #0000FF; /* Blue font color */
+    margin-top: 20px;
+}
+
+.student-table {
+    border-collapse: collapse;
+    border: 3px solid #800080; /* Purple border */
+    margin: 20px auto; /* Centering the table */
+    background-color: #FFFFFF; /* White background for table */
+}
+
+.student-table th,
+.student-table td {
+    border: 3px solid #800080; /* Purple border */
+    padding: 8px;
+}
+
+.student-table th {
+    background-color: #cccccc; /* Pink background for table headers */
+    font-weight: bold;
+}
+
+.student-table th:first-child {
+    background-color: #cccccc; /* Gray background for the first table header */
+}
